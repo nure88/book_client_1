@@ -1,0 +1,182 @@
+[
+  {
+    "title": "The Silent Forest",
+    "author": "John Green",
+    "genre": "Mystery",
+    "rating": 4,
+    "summary": "What if the forest didn't want you dead—just broken? When a hired expedition vanishes in the frozen wilds beyond the Spine of the World, Edric Valebrand emerges as the only survivor. What begins as a search for missing hunters unravels into a descent through a realm of whispers, blood, and madness. Trapped in a place where time bends and reality decays, Edric watches his companions fall one by one—claimed by a forest that thinks, remembers, and hungers. But survival is not escape. And some things, once seen, never let you go. The Silent Forest is a chilling journal of loss, paranoia, and the enduring scars left by unseen horrors.",
+    "coverImage": "https://m.media-amazon.com/images/I/61oguZs4GUL._SL1360_.jpg",
+    "userEmail": "user1@gmail.com"
+  },
+  {
+    "title": "React for Beginners",
+    "author": "Mayur Patil",
+    "genre": "Technology",
+    "rating": 5,
+    "summary": "React.js For Beginners: You might wonder how these web apps over the internet are built from scratch. Here you'll take some easy steps to learn it. Dig into REACT.JS for an exciting developer experience!",
+    "coverImage": "https://m.media-amazon.com/images/I/51eQekkEKoL._SY342_.jpg",
+    "userEmail": "user2@gmail.com"
+  },
+  {
+    "title": "Journey to Mars",
+    "author": "Elon Writer",
+    "genre": "Science Fiction",
+    "rating": 5,
+    "summary": "Scott’s peaceful life shatters when his office shuts down. Forced into a secret space operation, he travels to Mars to combat unknown creatures, the Otrofs. Betrayed and mortally injured, he awakens in a powerful red steel suit, gaining supersonic speed and unmatched strength. Battling alien forces wielding Infinity Stones, he fights to survive. Exhausted, he collapses, waking in a human bunker, his transformation excruciating but unstoppable.",
+    "coverImage": "https://m.media-amazon.com/images/I/61eD7+b1f3L._SY342_.jpg",
+    "userEmail": "user3@gmail.com"
+  },
+  {
+    "title": "Mindset Matters",
+    "author": "Carol Dweck",
+    "genre": "Self Help",
+    "rating": 4.4,
+    "summary": "A 7-day plan to doing less and achieving more. Do you hustle without much to show for it? Do you feel overwhelmed and unable to find the most effective task to focus on? Productivity is pointless without a highly effective strategy. This is why you must become obsessed with thinking strategically. With the correct thinking, you can save years and achieve many more of your goals. Each day, you'll get a simple exercise to develop a powerful strategy that will help you reach all your goals.",
+    "coverImage": "https://m.media-amazon.com/images/I/61g5Q1ySYWL._AC_UY218_.jpg",
+    "userEmail": "user4@gmail.com"
+  },
+  {
+    "title": "The Dark NightThe Dark Night",
+    "author": "Sandeep Nayyar",
+    "genre": "Thriller",
+    "rating": 4,
+    "summary": "The Dark Night of the Soul is a novel about a Ukrainian author, Lev Veles, who embarks on a spiritual journey to seek redemption and make his life cohere. Lev hopes to reconcile with his Russian daughter, Sophia, who believes that he is responsible for her mother's death. In Venice during the height of the pandemic, he meets a grotesquerie of characters at a Carnival ball who challenge his Christian faith. Lev struggles with competing beliefs: science vs. religion; reality vs. illusion; and spirituality vs. nihilism. He is haunted by Mara, a mysterious woman who appears to him in nightmares and tries to convince him to abandon any hope of salvation. Sophia undertakes her own perilous search for the father of her unborn child. In war-torn Ukraine, she discovers the terrible truth about Lev.",
+    "coverImage": "https://m.media-amazon.com/images/I/6150QmLcqtL._AC_UY218_.jpg",
+    "userEmail": "user5@gmail.com"
+  },
+  {
+    "title": "Node.js in Action",
+    "author": "Ryan Dahl",
+    "genre": "Technology",
+    "rating": 5,
+    "summary": "Since its creation in 2009, Node.js has grown into a powerful asynchronous development framework for creating highly scalable network applications using JavaScript. Pro Node.js for Developers provides a comprehensive guide, introducing Node.js and diving into the key concepts and APIs that underpin its operation.",
+    "coverImage": "https://m.media-amazon.com/images/I/612Vk0LBBXL._SY342_.jpg",
+    "userEmail": "user1@gmail.com"
+  },
+  {
+    "title": "Love Beyond Time",
+    "author": "Emily Stone",
+    "genre": "Romance",
+    "rating": 3.6,
+    "summary": "Do you prefer love over hate and prejudice? What is love? Is it physical attraction, deep care for friends and family, or something transcendent that can heal nations? This book explores examples of love and sacrifice from ancient times to the present and examines moments where humanity has gone astray, offering hope and inspiration for creating positive change.",
+    "coverImage": "https://m.media-amazon.com/images/I/91H1zel-v0L._AC_UY218_.jpg",
+    "userEmail": "user2@gmail.com"
+  },
+  {
+    "title": "The Last Kingdom",
+    "author": "Bernard Cornwell",
+    "genre": "History",
+    "rating": 5,
+    "summary": "The first book in the epic series that has gripped millions. A hero will be forged from this broken land. Raised by Vikings, orphan boy Uhtred becomes a fierce warrior. King Alfred fights to hold the throne of the only land resisting the pagan northerners. Uhtred and Alfred’s fates are tangled, soaked in blood and flames of war. Together they will change history.",
+    "coverImage": "https://m.media-amazon.com/images/I/51ULz0owtNL._SY445_SX342_FMwebp_.jpg",
+    "userEmail": "user3@gmail.com"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self Help",
+    "rating": 5,
+    "summary": "Reading books is a kind of enjoyment and a good habit. This book is portable and makes an ideal gift for yourself or your loved ones.",
+    "coverImage": "https://m.media-amazon.com/images/I/61KvGbrZ29L._SL1360_.jpg",
+    "userEmail": "user4@gmail.com"
+  },
+  {
+    "title": "JavaScript Deep Dive",
+    "author": "Kyle Simpson",
+    "genre": "Technology",
+    "rating": 5,
+    "summary": "JavaScript Deep Dive: Modern Development Practices is a comprehensive guide for developers, covering foundational to advanced JavaScript concepts. Topics include variables, data types, operators, control structures, asynchronous programming, event handling, and DOM intricacies.",
+    "coverImage": "https://m.media-amazon.com/images/I/811jDHvFk+L._AC_UY218_.jpg",
+    "userEmail": "user5@gmail.com"
+  },
+  {
+    "title": "The Haunted House",
+    "author": "Stephen King",
+    "genre": "Horror",
+    "rating": 4,
+    "summary": "Choose from nine possible endings in this interactive book for readers aged five to eight. Filled with colorful illustrations, it makes reading extra fun. Be careful—the choices you make could lead you face to face with a hungry crocodile!",
+    "coverImage": "https://m.media-amazon.com/images/I/815Pgc-kjNL._SY342_.jpg",
+    "userEmail": "user1@gmail.com"
+  },
+  {
+    "title": "CSS Mastery",
+    "author": "Lea Verou",
+    "genre": "Technology",
+    "rating": 4.5,
+    "summary": "Fully updated to the latest CSS modules, this book dives into advanced CSS topics such as responsive design, modular CSS, and typography. Easy-to-follow tutorials provide practical techniques for daily use.",
+    "coverImage": "https://m.media-amazon.com/images/I/51HNQ5GBbJL._AC_UY218_.jpg",
+    "userEmail": "user2@gmail.com"
+  },
+  {
+    "title": "The Power of Focus",
+    "author": "Jack Canfield",
+    "genre": "Self Help",
+    "rating": 4,
+    "summary": "Over 600,000 people have benefited from the strategies in The Power of Focus. This edition highlights why your ability to focus is vital for success today and provides crystal-clear guidance from business and personal development masters.",
+    "coverImage": "https://m.media-amazon.com/images/I/71E466dEd0L._AC_UY218_.jpg",
+    "userEmail": "user3@gmail.com"
+  },
+  {
+    "title": "Mystery of the Lost City",
+    "author": "Arthur Conan",
+    "genre": "Adventure",
+    "rating": 4,
+    "summary": "An adventurous mystery novel.",
+    "coverImage": "https://m.media-amazon.com/images/I/71+1G29phwL._AC_UY218_.jpg",
+    "userEmail": "user4@gmail.com"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "genre": "Technology",
+    "rating": 5,
+    "summary": "Python Crash Course is a fast-paced introduction to Python. It teaches variables, lists, classes, loops, and clean coding practices through hands-on exercises and interactive programs.",
+    "coverImage": "https://m.media-amazon.com/images/I/81ZBWeKoZVL._AC_UY218_.jpg",
+    "userEmail": "user5@gmail.com"
+  },
+  {
+    "title": "Life Lessons",
+    "author": "Robin Sharma",
+    "genre": "Motivation",
+    "rating": 4,
+    "summary": "Tony Hart loves teaching, but his life changes when a murdered teacher's body falls into the elevator at his feet, pulling him into a dangerous mystery. Alongside homicide detective Jared MacLean, Tony navigates danger, connection, and unexpected love.",
+    "coverImage": "https://m.media-amazon.com/images/I/81CKN0aFQcL._SX342_.jpg",
+    "userEmail": "user1@gmail.com"
+  },
+  {
+    "title": "The Coding Interview",
+    "author": "Gayle Laakmann",
+    "genre": "Technology",
+    "rating": 5,
+    "summary": "This book guides aspiring software engineers through coding interviews, offering strategies, practice problems, and tips for solving algorithms and writing flawless code under pressure.",
+    "coverImage": "https://m.media-amazon.com/images/I/81HQLip8s1L._SX342_.jpg",
+    "userEmail": "user2@gmail.com"
+  },
+  {
+    "title": "Fantasy World",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "rating": 5,
+    "summary": "Evan enjoys a quiet life until he’s transported to a magical world filled with sword-wielding knights, romance, and adventure, turning his quiet life upside down.",
+    "coverImage": "https://m.media-amazon.com/images/I/81Q1rODtv9L._AC_UY218_.jpg",
+    "userEmail": "user3@gmail.com"
+  },
+  {
+    "title": "Startup Success",
+    "author": "Naval Ravikant",
+    "genre": "Business",
+    "rating": 4,
+    "summary": "A practical guide for aspiring entrepreneurs, emphasizing that success comes from the fastest team to learn, iterate, and execute, rather than just having a great product.",
+    "coverImage": "https://m.media-amazon.com/images/I/71dnbdoQNCL._SY342_.jpg",
+    "userEmail": "user4@gmail.com"
+  },
+  {
+    "title": "Data Structures Explained",
+    "author": "Robert Lafore",
+    "genre": "Technology",
+    "rating": 5,
+    "summary": "Go Data Structures Explained: A Practical Guide with Examples explores both foundational and advanced data structures in Go. It guides readers through setting up the Go environment, introduces Go's syntax, and establishes a strong foundation for understanding complex data structures and algorithms.",
+    "coverImage": "https://m.media-amazon.com/images/I/61bZQqRxEtL._AC_UY218_.jpg",
+    "userEmail": "user5@gmail.com"
+  }
+]

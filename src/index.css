@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@plugin "daisyui"{
+   themes: light --default, dark --prefersdark;
+ 
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+
+.delete-btn{
+    @apply btn btn-error w-20 md:w-30 lg:w-40 bg-top-left ml-3
+}
+.edit-btn{
+    @apply btn w-20 md:w-30 lg:w-40 btn-primary
+}
