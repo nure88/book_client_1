@@ -4,15 +4,19 @@ import MinHeight from '../shareComponents/MinHeight';
 import { Link, useNavigate } from 'react-router';
 import AuthContext from '../shareComponents/authContext/AuthContext';
 import { toast, ToastContainer } from 'react-toastify';
-
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import {sendEmailVerification} from "firebase/auth"
 const Register = () => {
+  const [toggle, setToggle] = useState(false);
 const[error, setError] = useState("");
 
 
 const {createUser,setUser,updateUserProfile} = useContext(AuthContext);
  const navigate = useNavigate();
 
- 
+ const handleToggle = () => {
+setToggle(!toggle)
+ };
 
 
     const handleRegisterFormSubmit = (e) => {
@@ -33,14 +37,21 @@ if(!passwordRegEx.test(password)){
 }
     createUser(email,password)
     .then((result) => {
-
+     
       const user = result.user
       updateUserProfile({displayName,photoURL})
       .then(() =>{
-        
-        setUser({...user,displayName,photoURL});
+  setUser({...user,displayName,photoURL});
+sendEmailVerification(user)
+.then(() =>{
+  toast.success("Verification email sent! check your email.")
+}).catch((err)=>{
+  toast.error(err.message)
+})
+    
         navigate("/")
-        e.target-reset();
+        e.target-reset();        
+      
       }).catch((error) => {
         toast.error(error.message)
         console.log(error.message);
@@ -76,9 +87,14 @@ if(!passwordRegEx.test(password)){
           <input className="input"  name='email' type="email" placeholder required />
           <span>Email</span>
         </label> 
-        <label>
-          <input className="input" name='password' type="password" placeholder required />
+        <label className='relative'>
+          <input className="input" name='password' type={toggle?"text":"password"} placeholder required />
           <span>Password</span>
+          <button className='absolute mt-3 -ml-6' type='button' onClick={handleToggle}>
+            {
+   toggle? <FaEyeSlash size={20}/>: <FaEye size={20} className=''/>
+            }
+          </button>
         </label>
        {
         error && <p className='text-sm text-red-500'>{error}</p>

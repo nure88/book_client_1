@@ -1,16 +1,117 @@
-# React + Vite
+<!-- Navbar & Footer -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Navbar:
 
-Currently, two official plugins are available:
+Links: Home, All Books, Add Book, My Books, Login/Register
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Conditional rendering:
 
-## React Compiler
+If logged in → show photoURL + displayName on hover + LogOut button
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+If not logged in → show Login/Register
 
-## Expanding the ESLint configuration
+Footer:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Copyright text
+
+Simple design
+
+Responsiveness: Hamburger menu for small screens
+
+
+<!--  Home Page -->
+
+Banner:
+
+Animated text or background
+
+Buttons: All Books, Create Book
+
+Dynamic Section:
+
+Latest 6 books from MongoDB
+
+Use Axios GET /books?limit=6&sort=createdAt
+
+Static Sections (choose 2):
+
+Top Genres: display genres with images
+
+Book of the Week: highlight a book
+
+About The Book Haven: intro about site
+
+Optional: Dark/Light mode toggle
+
+
+
+<!--  CRUD Operations -->
+
+Add Book
+
+Form: Title, Author, Genre, Rating, Summary, Cover Image, User Email/Name
+
+Upload image via imgbb API
+
+POST to /books
+
+Show success toast
+
+All Books
+
+Table: Title, Author, Genre, Rating
+
+Sort functionality (e.g., by Rating)
+
+View Details button → /book-details/:id
+
+Book Details
+
+Show full book info
+
+Optional: comments & reviews section
+
+Protected route
+
+Update Book
+
+Pre-filled form
+
+PATCH request /books/:id
+
+Show confirmation toast
+
+Delete Book
+
+Delete button → DELETE /books/:id
+
+Show confirmation toast
+
+My Books
+
+Table of user-added books
+
+Update/Delete buttons functional
+
+Protected route
+
+
+
+///
+
+
+In short:=======>
+
+React → To build the UI
+
+React Router → For route management
+
+Tailwind CSS + DaisyUI + Styled Components → For styling
+
+Axios → To fetch/post data from MongoDB / backend
+
+Firebase → For authentication (Login/Register/Google Login/Forget Password)
+
+React-Toastify / SweetAlert2 → For success/error notifications
+
+Swiper → Carousel/slider for the home page banner

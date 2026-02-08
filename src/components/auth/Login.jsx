@@ -1,15 +1,17 @@
-import { useContext } from 'react';
+import { useContext, useRef, useState } from 'react';
 import styled from 'styled-components';
 import MinHeight from '../shareComponents/MinHeight';
 import { Link, useLocation, useNavigate } from 'react-router';
 import AuthContext from '../shareComponents/authContext/AuthContext';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const Login = () => {
- const {userLogin}= useContext(AuthContext);
+  const [toggle, setToggle] = useState(false);
+ const {userLogin,forgetUserEmailAndPassword}= useContext(AuthContext);
 
  const location = useLocation();
  const navigate = useNavigate();
- 
+ const EmailRef = useRef(); 
 
 const handleLoginForm = (e) => {
 e.preventDefault();
@@ -27,9 +29,23 @@ userLogin(email,password)
 })
 };
 
+const handleToggle = () =>{
+setToggle(!toggle);
+};
 
-
-
+const forgetUserEmailAndPass = () => {
+  const email = EmailRef.current.value;
+  if(!email){
+    alert("Please enter your email first!");
+    return;
+  };
+  forgetUserEmailAndPassword(email)
+  .then(()=> {
+    alert("Reset email sent! check your inbox.")
+  }).catch((err)=> {
+    alert(err.message)
+  })
+}
   return (
 <MinHeight>
         <StyledWrapper>
@@ -37,14 +53,20 @@ userLogin(email,password)
         <p className="title">Login Now!</p>
         
         <label>
-          <input className="input" name='email' type="email" placeholder required />
+          <input className="input" name='email'ref={EmailRef} type="email" placeholder required />
           <span>Email</span>
         </label> 
-        <label>
-          <input className="input" name='password' type="password" placeholder required />
+        <label className='relative'>
+          <input className="input"  name='password' type={toggle? "text":"password"} placeholder required />
           <span>Password</span>
+        <button type='button' className='absolute mt-3 -ml-6 cursor-pointer' onClick={handleToggle}>
+          {
+            toggle? <FaEyeSlash size={20}/> : <FaEye size={20}/>
+          }
+        </button>
+
         </label>
-      
+ <a className='cursor-pointer' onClick={forgetUserEmailAndPass}>Forget password</a>
         <button className="submit" type='submit'>Login Now</button>
         <p className="signin">Don't have an account? Please <Link to='/register' > Register</Link> 
         

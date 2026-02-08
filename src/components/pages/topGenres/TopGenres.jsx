@@ -28,8 +28,8 @@ const TopGenres = () => {
   
   {
     topBook.map((topBook) => (
-        <div>
-            <img className='flex mx-auto' src={topBook.coverImage} alt="" />
+        <div className='object-cover'>
+            <img className='flex mx-auto rounded h-[200px] ' src={topBook.coverImage} alt="" />
         </div>
     ))
   }
